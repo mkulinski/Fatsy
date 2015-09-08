@@ -1,4 +1,16 @@
-.iPhone-img {
-	width: 225px;
-	height: 500px;
+.main {
+	height: 700px;
 }
+.screen {
+	background-image: url("images/iphone_Rlogo.png");
+	height: 570px;
+	width: 280px;
+	padding-top: 20px;
+	padding-left: 22px;
+}
+.carousel-inner {
+	width: 235px;
+	height: 430px;
+	margin-top: 57px;
+}
+
