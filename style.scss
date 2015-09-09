@@ -1,0 +1,46 @@
+$orange:#C63D0F;
+$marginTop:30px;
+
+@mixin display($display: inline-block) {
+	display: $display;
+}
+
+body {
+	background-color: $orange;
+}
+.jumbotron {
+	background-color: $orange;
+	color: #FFF;
+	margin-top: $marginTop + 70px;
+}
+.screen {
+	background-image: url("images/iphone_Rlogo.png");
+	height: 570px;
+	width: 280px;
+	padding: 20px 0 0 22px;
+}
+.carousel-inner {
+	width: 235px;
+	height: 430px;
+	margin-top: $marginTop + 27px;
+}
+#signUp {
+	margin-top: $marginTop + 60px;
+}
+.text-left {
+	margin-top: $marginTop;
+
+	img {
+	@include display;
+	margin: 0 10px 38px 0;
+	}
+
+	h1 {
+	@include display;
+	text-transform: uppercase;
+	}
+
+	h2 {
+	margin-top: $marginTop;
+	}
+}
